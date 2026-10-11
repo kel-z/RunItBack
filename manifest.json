@@ -1,0 +1,10 @@
+{
+  "name": "RunItBack",
+  "version_number": "0.1.1",
+  "website_url": "https://github.com/kel-z/RunItBack",
+  "description": "Add a restart button in Risk of Rain 2 to retry the last stage you died on",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2121",
+    "RiskofThunder-RoR2BepInExPack-1.44.0"
+  ]
+}

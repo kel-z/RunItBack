@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>RunItBack</AssemblyName>
+    <RootNamespace>RunItBack</RootNamespace>
+    <Version>0.1.1</Version>
+    <DebugType>embedded</DebugType>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx"><HintPath>lib/BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>lib/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="RoR2"><HintPath>lib/RoR2.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>lib/UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>lib/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>lib/UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>lib/Unity.TextMeshPro.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime"><HintPath>lib/com.unity.multiplayer-hlapi.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="HGCSharpUtils"><HintPath>lib/HGCSharpUtils.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+
+</Project>
